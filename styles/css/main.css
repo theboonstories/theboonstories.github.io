@@ -201,10 +201,10 @@ body {
 .btn-outline-primary:hover {
     color: #fff;
 }
-
-.couple-sec p:first-of-type {
-	font-size: 20px;
+.f-20 {
+    font-size: 20px;
 }
+
 .couple-sec .brd-grm {
     background: url(../../images/bg-img.png);
     background-repeat: no-repeat;
