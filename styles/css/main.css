@@ -8,6 +8,7 @@ body {
     height: 100vh;
     min-height: 480px;
     max-height: 1080px;
+
 }
 .ww-home-page .ww-wedding-announcement {
     width: 100%;
@@ -39,6 +40,13 @@ body {
 @media(max-width:576px) {
     .ww-home-page .ww-wedding-announcement .ww-couple-name {
     font-size: 50px;
+
+}
+.ww-home-page {
+    background: url(../../images/1.jpeg) no-repeat center center;
+        background-size: cover;
+    background-position: 70%;
+
 }
 }.ww-home-page:before {
     content: "";
@@ -216,4 +224,14 @@ body {
     margin-left: 2rem;
     position: relative;
     bottom: 25px;
+}
+
+.ww-footer {
+    background-color: #000000 !important;
+}
+.ww-footer p {
+    color: #f0a136 !important;
+}
+.ww-footer img {
+    width: 100px;
 }
